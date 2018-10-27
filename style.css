@@ -1,0 +1,325 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+ul {
+  list-style-type: none; }
+
+header {
+  position: absolute;
+  background-color: transparent;
+  left: 50%;
+  transform: translateX(-50%); }
+  header .header-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 30px 0; }
+    header .header-info .logo {
+      font-size: 18px;
+      text-transform: uppercase;
+      color: white;
+      display: flex;
+      align-items: center; }
+      header .header-info .logo span {
+        font-weight: bold; }
+      header .header-info .logo i {
+        color: #129fe6; }
+    header .header-info .login-area form select {
+      color: white;
+      background-color: transparent;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-color: transparent; }
+    header .header-info .login-area form .login {
+      text-transform: uppercase;
+      color: white;
+      border-radius: 30px;
+      background-color: transparent;
+      padding: 10px 30px;
+      font-weight: bold; }
+    header .header-info .login-area form .client {
+      text-transform: uppercase;
+      color: white;
+      border-radius: 30px;
+      border-color: transparent;
+      background-color: transparent;
+      padding: 10px 30px;
+      font-weight: bold;
+      background-color: #129fe6;
+      margin-left: 20px; }
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase; }
+    header nav ul li {
+      padding: 30px 0 30px 0;
+      border-top: 1px solid #129fe6; }
+      header nav ul li i {
+        color: #129fe6;
+        padding-right: 10px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: white;
+        display: inline-block; }
+
+.inside-header {
+  margin-top: 30px; }
+  .inside-header div {
+    text-transform: uppercase; }
+    .inside-header div h3 {
+      color: #7e7e7e; }
+    .inside-header div h1 {
+      font-size: 30px; }
+
+.container {
+  width: 1172px;
+  margin: auto; }
+
+.inside-header {
+  padding: 150px 0 100px 0;
+  display: flex;
+  justify-content: space-between; }
+  .inside-header div {
+    text-align: left; }
+  .inside-header p {
+    display: inline-block;
+    width: 546px;
+    text-align: right;
+    color: #7e7e7e;
+    position: relative; }
+  .inside-header p::before {
+    content: '';
+    display: block;
+    width: 94px;
+    background-color: #129fe6;
+    height: 2px;
+    position: absolute;
+    bottom: 4px;
+    right: 0; }
+  .inside-header p::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #129fe6;
+    position: absolute;
+    right: 94px;
+    bottom: 0; }
+
+main .main-info {
+  padding-top: 400px;
+  color: white;
+  height: 935px;
+  background-image: url("../Task/welcome.jpg");
+  background-size: cover; }
+  main .main-info .container h1 {
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+  main .main-info .container h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+    main .main-info .container h2 span:nth-child(1) {
+      font-size: 20px; }
+    main .main-info .container h2 span:nth-child(2) {
+      color: #129fe6; }
+  main .main-info .container button {
+    text-transform: uppercase;
+    color: white;
+    border-radius: 30px;
+    border-color: white;
+    background-color: transparent;
+    padding: 10px 30px;
+    margin: 40px 0 20px 0;
+    font-weight: bold;
+    background-color: transparent; }
+main .setup-domain {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 45px 0 45px 0;
+  background-color: #222222; }
+  main .setup-domain form {
+    text-align: right; }
+    main .setup-domain form input {
+      font-size: 25px;
+      color: #7e7e7e;
+      background-color: transparent;
+      border-color: transparent;
+      border-bottom: 1px solid #7e7e7e;
+      padding-bottom: 15px;
+      width: 400px;
+      text-transform: uppercase;
+      margin: 10px; }
+    main .setup-domain form select {
+      text-transform: uppercase;
+      font-size: 25px;
+      color: #7e7e7e;
+      background-color: transparent;
+      border-color: transparent; }
+    main .setup-domain form i {
+      background-color: #222222;
+      border-color: red;
+      color: white;
+      display: inline-block; }
+  main .setup-domain article {
+    position: absolute;
+    padding: 50px;
+    color: white;
+    left: 350px;
+    bottom: -50px;
+    width: 200px;
+    height: 250px;
+    background-color: #129fe6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    main .setup-domain article h1 {
+      border-bottom: 1px solid white;
+      padding-bottom: 10px; }
+    main .setup-domain article::before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-bottom: 250px solid #129fe6;
+      border-right: 150px solid transparent;
+      position: absolute;
+      left: 200px; }
+main .service-info .service-list {
+  list-style-type: none;
+  display: flex; }
+  main .service-info .service-list li {
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #f6f6f6;
+    text-transform: capitalize; }
+    main .service-info .service-list li p {
+      color: #7e7e7e; }
+  main .service-info .service-list li ~ li {
+    margin-left: 5px; }
+main .service-feature {
+  margin-bottom: 80px; }
+  main .service-feature .feature-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 10px; }
+    main .service-feature .feature-content li {
+      padding: 20px 80px 20px 20px;
+      background-color: #c6c6c6;
+      display: flex;
+      align-items: center; }
+      main .service-feature .feature-content li .content h1 {
+        margin-bottom: 10px; }
+      main .service-feature .feature-content li .content p {
+        color: #7e7e7e; }
+main .plan-pricing .pricing-header {
+  padding-top: 50px;
+  text-align: center;
+  height: 421px;
+  background-image: linear-gradient(to left, grey, blue); }
+  main .plan-pricing .pricing-header h2 {
+    color: #c6c6c6;
+    font-size: 15px;
+    text-transform: uppercase; }
+  main .plan-pricing .pricing-header h1 {
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize; }
+main .plan-pricing .container ul {
+  height: 600px;
+  margin: -150px;
+  display: flex;
+  justify-content: center; }
+  main .plan-pricing .container ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 60px 30px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid black; }
+    main .plan-pricing .container ul li .price {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #c6c6c6;
+      padding-top: 20px;
+      margin: 10px;
+      font-size: 16px; }
+    main .plan-pricing .container ul li button {
+      text-transform: uppercase;
+      color: white;
+      border-radius: 30px;
+      border-color: transparent;
+      background-color: black;
+      padding: 10px 30px;
+      font-weight: bold; }
+    main .plan-pricing .container ul li p:nth-child(2n) {
+      background-color: #c6c6c6;
+      display: block;
+      padding: 10px 0 10px 0; }
+main .package-offer {
+  margin-top: 300px;
+  background: #222222;
+  padding: 100px 0 200px 0; }
+  main .package-offer .inside-header {
+    color: white; }
+  main .package-offer .offer-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 60px; }
+    main .package-offer .offer-list li h1 {
+      color: white; }
+    main .package-offer .offer-list li p {
+      color: #c6c6c6; }
+main .create-website {
+  background-color: #c6c6c6; }
+  main .create-website .template-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin: 100px 0 100px 0; }
+  main .create-website .container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around; }
+    main .create-website .container button {
+      font-size: 20px; }
+    main .create-website .container .view-template {
+      width: 300x;
+      height: 50px;
+      border-radius: 20px;
+      background-color: black;
+      color: white;
+      text-transform: uppercase;
+      padding: 10px;
+      margin-bottom: 20px; }
+    main .create-website .container button:nth-child(2), main .create-website .container button:nth-child(3) {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-bottom: 30px;
+      color: white; }
+    main .create-website .container button:nth-child(2) {
+      background-color: black; }
+    main .create-website .container button:nth-child(3) {
+      background-color: #129fe6; }
+main .company-info {
+  display: flex;
+  justify-content: center; }
+
+/*# sourceMappingURL=style.css.map */
