@@ -1,4 +1,18 @@
+<<<<<<< HEAD
 1111111111111111111111111111111
 adsfasdfsadf
 hellomay
 
+=======
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaa
+aaaaaaaaa
+aaaaccccccccccccccccccccccccccccccccccccccccccccc
+ccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccaaaaaaaaaaaaaaa
+a
+aaaaaaaaaaa
+cccccccccccccccccccccccccccccccc
+ccccccccccccccccccccccccccccccccccccccccccccc
+ccccccccccccccccccccccccccccccccccccccccccccc
+>>>>>>> dc368717b9b84098affa2178f402d14f2a8aabdb
