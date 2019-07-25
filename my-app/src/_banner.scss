@@ -1,0 +1,26 @@
+.curve-banner {
+  margin-bottom: 110px;
+
+  .parallax-banner {
+    height: 140px;
+    position: relative;
+
+    .parallax-content {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+
+      .banner-title {
+        line-height: 30px;
+        font-size: 12px;
+      }
+
+      .banner-description {
+        line-height: 30px;
+        font-size: 12px;
+      }
+    }
+  }
+}
